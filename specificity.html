@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        h1{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- color specificity = !important>inline>internal>external another  is   Id>Class this is the priority -->
+    <h1>My special Heading -1</h1>
+    <h1 style="color:aqua">My special Heading -2</h1>
+    <h1>My special Heading -3</h1>
+    <h1>My special Heading -4</h1>
+</body>
+</html>
