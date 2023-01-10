@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Variable</title>
+    <style>
+        :root{
+            --primary-color:rgb(25, 146, 198);
+            --secondary-color:red;
+            --single-border: 2px solid blue;
+        }
+        h1{
+            color: var(--primary-color);
+        }
+        #heading-3{
+            background-color: var(--secondary-color);
+        }
+        #heading-4{
+            background-color:var(--primary-color);
+            color:black;
+            
+        }
+        .p{
+            border: 2px solid var(--single-border);
+        }
+        #heading-2{
+            border-bottom: var(--single-border);
+        }
+        .p{
+            border-bottom: var(--single-border);
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="heading" id="heading-1">My Strong Heading -1</h1>
+    <h1 class="heading" id="heading-2">My Strong Heading -2</h1>
+    <h1 class="heading" id="heading-3">My Strong Heading -3</h1>
+    <h1 class="heading" id="heading-4">My Strong Heading -4</h1>
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officia, eaque mollitia porro cumque tempore odio nemo cupiditate asperiores beatae atque modi totam eligendi autem itaque facilis eius. Eligendi, necessitatibus!</p>
+</body>
+</html>
